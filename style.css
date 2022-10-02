@@ -1,0 +1,128 @@
+.flex1-container {
+    display: flex;  
+    margin: 15px;
+    align-items: center;
+}
+
+nav ul {
+    padding-left: 75px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 100px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-weight: bold; /* mettre une liste en gras */
+    color: black;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+a:hover {
+    color: darkcyan;
+}
+
+ol.breadcrumb {
+    display: flex;
+    margin-top: 55px;
+    margin-left: -45px;
+}
+
+ol.breadcrumb li {
+    list-style-type: none;
+    margin-left: 20px;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+ol.breadcrumb li a {
+    text-decoration: none;
+    color: black;
+}
+
+ol.breadcrumb li a:hover {
+    color: darkcyan;
+}
+
+section {
+    padding-top: 35px;
+    
+    margin-left: 15px;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+.fiche {
+    margin-left: 13px;
+    margin-right: 58px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 22px;
+    border-color: darkgray;
+}
+
+.fiche img{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 7px;
+}
+
+h3 {
+    margin-left: 88px;
+}
+
+#RRP {
+    padding-left: 77px;
+    color: cadetblue;
+}
+
+#price {
+    padding-left: 51px;
+}
+
+#saving {
+    padding-left: 69px;
+    color: red;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.les_fiches {
+    display: flex;
+}
+
+@media screen and (max-width: 500px) {
+    .flex1-container img {
+        width: 170px;
+        height: 170px;
+        padding-bottom: 20px;
+    }
+    .flex1-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .flex2-container ul {
+        display: flex;
+        flex-direction: row;
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    .flex2-container li {
+        border: 2px solid black;
+        box-shadow: 5px 3px;
+        margin: 0px;
+        padding: 5px;
+    }
+    section {
+        margin-top: -65px;
+    }
+    .flex3-container  {
+        display: flex;
+        align-items: flex-start;
+        width: 336px;
+    }
+    
+}
